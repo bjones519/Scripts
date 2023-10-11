@@ -1,4 +1,5 @@
-`#!/bin/bash
+#!/bin/bash
+
 curl -fsSL https://code-server.dev/install.sh > install.sh && chmod +x install.sh
 ./install.sh
 sudo systemctl enable --now code-server@$USER
